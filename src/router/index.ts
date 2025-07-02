@@ -26,6 +26,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory('/A11Y/'),
+
   routes: [
     {
       path: '/',
