@@ -14,6 +14,7 @@ import SkipLinksError from '@/examples/SkipLinksError.vue'
 import SkipLinksGood from '@/examples/SkipLinksGood.vue'
 import AcessibilidadeDigitalView from '@/views/AcessibilidadeDigitalView.vue'
 import BaixoContraste from '@/views/BaixoContrasteView.vue'
+import ContatoView from '@/views/ContatoView.vue'
 import FocoNaoVisivel from '@/views/FocoNaoVisivelView.vue'
 import FormularioSemRotulo from '@/views/FormularioSemRotuloView.vue'
 import HierarquiaTitulosView from '@/views/HierarquiaTitulosView.vue'
@@ -85,6 +86,12 @@ const router = createRouter({
       path: '/view/sair',
       name: 'sair-view',
       component: SairView,
+      meta: { layout: 'view' }
+    },
+    {
+      path: '/view/contato',
+      name: 'contato-view',
+      component: ContatoView,
       meta: { layout: 'view' }
     },
     {

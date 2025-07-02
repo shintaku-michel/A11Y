@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { AlcHeader, AlcNavPanel, AlcSkipLink } from 'alcance-vue-library';
-import { RouterView } from 'vue-router';
 import navVertical from '../components/NavVertical.vue';
+
 </script>
 
 <template>
@@ -40,7 +40,7 @@ import navVertical from '../components/NavVertical.vue';
 
     <main class="container-fluid" id="main-content">
       <div class="px-8">
-        <router-view />
+        <slot />
       </div>
     </main>
   </div>
