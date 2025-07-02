@@ -64,7 +64,7 @@ const mostrarCodigo = ref(false);
           `">
           <template #title>
             <div class="flex flex-row items-center gap-2">
-              <img src="/src/assets/icons/g-close.svg" alt="" class="h-6 w-6">
+              <img src="@/assets/icons/g-close.svg" alt="" class="h-6 w-6">
               Errado
             </div>
           </template>
@@ -107,7 +107,7 @@ const mostrarCodigo = ref(false);
           `">
           <template #title>
             <div class="flex flex-row items-center gap-2">
-              <img src="/src/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+              <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
               <span>Certo</span>
             </div>
           </template>

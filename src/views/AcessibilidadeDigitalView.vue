@@ -19,43 +19,43 @@ import { RouterLink } from 'vue-router';
       <ol class="lista-custom mb-4">
         <li class="py-0.5">
           <RouterLink to="/view/html-semantico" class="link-custom flex gap-2">
-            <img src="/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+            <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
             01 - Uso inadequado de HTML semântico
           </RouterLink>
         </li>
         <li class="py-0.5">
           <RouterLink to="/view/baixo-contraste" class="link-custom flex gap-2">
-            <img src="/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+            <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
             02 - Baixo contraste de cores
           </RouterLink>
         </li>
         <li class="py-0.5">
           <RouterLink to="/view/imagem-sem-alt" class="link-custom flex gap-2">
-            <img src="/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+            <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
             03 - Imagens sem texto alternativo
           </RouterLink>
         </li>
         <li class="py-0.5">
           <RouterLink to="/view/foco-nao-visivel" class="link-custom flex gap-2">
-            <img src="/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+            <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
             04 - Foco não visível
           </RouterLink>
         </li>
         <li class="py-0.5">
           <RouterLink to="/view/formulario-sem-rotulo" class="link-custom flex gap-2">
-            <img src="/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+            <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
             05 - Formulários sem rótulos
           </RouterLink>
         </li>
         <li class="py-0.5">
           <RouterLink to="/view/hierarquia-titulos" class="link-custom flex gap-2">
-            <img src="/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+            <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
             06 - Hierarquia incorreta de títulos
           </RouterLink>
         </li>
         <li class="py-0.5">
           <RouterLink to="/view/skip-links" class="link-custom flex gap-2">
-            <img src="/assets/icons/g-check.svg" alt="" class="h-6 w-6">
+            <img src="@/assets/icons/g-check.svg" alt="" class="h-6 w-6">
             07 - Não fornecer skip links
           </RouterLink>
         </li>
