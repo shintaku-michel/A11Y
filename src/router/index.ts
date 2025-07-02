@@ -25,7 +25,7 @@ import SkipLinks from '@/views/SkipLinksView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/A11Y/'),
   routes: [
     {
       path: '/',
