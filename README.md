@@ -30,12 +30,3 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 - [Node.js](https://nodejs.org/) (versão recomendada)
 - [Yarn](https://classic.yarnpkg.com/lang/en/) ou [npm](https://www.npmjs.com/)
-
-## Instalação
-Clone o repositório:
-
-```bash
-git https://git.camara.gov.br/P_991311/boas-praticas-frontend-acessivel.git
-cd boas-praticas-frontend-acessivel
-npm install
-npm run dev
