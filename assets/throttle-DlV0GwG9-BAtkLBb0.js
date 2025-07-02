@@ -1,0 +1,1 @@
+function s(r,a){var e=!1,l,t,n,u=null;function i(){t==null?e=!1:(n=r.apply(l,t),t=null,u=setTimeout(i,a))}function f(){if(e){t=arguments;return}return l=this,n=r.apply(l,t),e=!0,u=setTimeout(i,a),n}function o(){clearTimeout(u),u=l=n=t=null,e=!1}return f.cancel=o,f}export{s as t};
