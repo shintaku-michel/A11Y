@@ -6,7 +6,6 @@ import { defineConfig } from 'vite'
 /* import vueDevTools from 'vite-plugin-vue-devtools' */
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/A11Y/',
   plugins: [
     tailwindcss(),
     vue({
@@ -24,4 +23,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  base: '/A11Y/'
 })
