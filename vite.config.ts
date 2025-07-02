@@ -6,6 +6,7 @@ import { defineConfig } from 'vite'
 /* import vueDevTools from 'vite-plugin-vue-devtools' */
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/a11y-tips/',
   plugins: [
     tailwindcss(),
     vue({

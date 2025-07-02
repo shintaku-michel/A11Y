@@ -34,7 +34,7 @@ const props = defineProps({
 })
 
 // Referência do <code>
-const codeRef = ref(null)
+const codeRef = ref<HTMLElement | null>(null)
 
 // Função que aplica o highlight
 const applyHighlight = () => {

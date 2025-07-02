@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
           aria-label="zerar cronômetro">
           <span>Zerar</span>
         </button>
-        <button @click="sairCronometro" class="alc-button h-10 w-full" aria-label="Sair cronômetro">
+        <button class="alc-button h-10 w-full" aria-label="Sair cronômetro">
           <span>Sair</span>
         </button>
       </div>
